@@ -3,7 +3,18 @@ from torch import nn, Tensor
 from einops import rearrange, reduce, repeat
 
 
-class MiDaS:
+
+
+
+class ResNetEncdoer(nn.Module):
+    def __init__(self):
+        pass
+    
+    def forward(self, x):
+        pass
+
+
+class MidaS:
     def __init__(self):
         pass
     
